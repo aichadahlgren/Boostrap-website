@@ -1,0 +1,11 @@
+/*.align-baseline {
+    vertical-align: baseline;
+  }
+*/
+/*a span {
+    padding-top: -20px;
+}
+*/
+.text-link:hover {
+  color: red; /* Change the color to red when hovering over the link */
+}
