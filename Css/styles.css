@@ -6,6 +6,13 @@
     padding-top: -20px;
 }
 */
+.navbar{
+    background: linear-gradient(to right,#18c4e3,#FC5C7D);
+}
+.navbar .navbar-nav .nav-link{
+  color: #FFF;
+}
+
 .text-link:hover {
   color: red; /* Change the color to red when hovering over the link */
 }
@@ -30,5 +37,22 @@ background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50%
 
 .carousel1 {
 width:75% !important;
-margin:auto !important;
+margin:0 auto !important;
+}
+
+img.medium {
+  width: 1000px;  
+  height: 700px;  
+}
+/* .carousel {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.hover:hover {
+  color: #FC5C7D;
+}
+.dropdown-menu>li> a:hover{
+  /* Your hover effect styles */
+  color: #FC5C7D; /* Change this to whatever color you desire */
 }
