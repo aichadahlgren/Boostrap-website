@@ -9,3 +9,26 @@
 .text-link:hover {
   color: red; /* Change the color to red when hovering over the link */
 }
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Optional: adjust as needed */
+}
+.card {
+  margin: 30px;
+}
+
+body {
+background: url("/Images/dogs/background3.jpg");
+background-repeat: no-repeat;
+background-size: cover; /* This ensures the background image covers the entire viewport */
+background-position: center; /* Center the background image horizontally and vertically */
+background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50% opacity */
+}
+
+.carousel1 {
+width:75% !important;
+margin:auto !important;
+}
