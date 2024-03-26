@@ -37,12 +37,12 @@ background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50%
 
 .carousel1 {
 width:75% !important;
-margin:0 auto !important;
+margin: auto !important;
 }
 
 img.medium {
-  width: 1000px;  
-  height: 700px;  
+  
+  height: 400px;  
 }
 /* .carousel {
   margin-left: auto;
