@@ -35,14 +35,9 @@ background-position: center; /* Center the background image horizontally and ver
 background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50% opacity */
 }
 
-.carousel1 {
-width:75% !important;
-margin: auto !important;
-}
-
 img.medium {
-  
-  height: 400px;  
+  width: 800px;
+  height: 550px;  
 }
 /* .carousel {
   margin-left: auto;
@@ -56,3 +51,8 @@ img.medium {
   /* Your hover effect styles */
   color: #FC5C7D; /* Change this to whatever color you desire */
 }
+
+/* .carousel1 {
+  width:75% !important;
+  margin: auto !important;
+  } */
