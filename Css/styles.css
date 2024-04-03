@@ -36,8 +36,8 @@ background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50%
 }
 
 img.medium {
-  width: 800px;
-  height: 550px;  
+  width: 950px;
+  height: 600px;  
 }
 /* .carousel {
   margin-left: auto;
@@ -56,3 +56,10 @@ img.medium {
   width:75% !important;
   margin: auto !important;
   } */
+
+  /* Custom CSS for the carousel */
+  .carousel-border {
+    border: 1px solid #ccc; /* Change the color and thickness as needed */
+    border-radius: 5px; /* Optional: add border radius for rounded corners */
+    padding: 10px;
+  }
