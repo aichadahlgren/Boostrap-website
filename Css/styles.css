@@ -51,15 +51,3 @@ img.medium {
   /* Your hover effect styles */
   color: #FC5C7D; /* Change this to whatever color you desire */
 }
-
-/* .carousel1 {
-  width:75% !important;
-  margin: auto !important;
-  } */
-
-  /* Custom CSS for the carousel */
-  .carousel-border {
-    border: 1px solid #ccc; /* Change the color and thickness as needed */
-    border-radius: 5px; /* Optional: add border radius for rounded corners */
-    padding: 10px;
-  }

@@ -25,7 +25,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"     aria-expanded="false">
-                  <span class="hover">Things for Animals</span></a>
+                  <span class="hover">Food for Animals</span></a>
                   </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="dogs.html">Dogs</a></li>
@@ -37,6 +37,8 @@
           </div>
         </div>
       </nav><!--  navbar="navbar-expand-lg bg-body-tertiary" END-->
+
+      
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,16 +52,28 @@
   </div>
 </nav>
 <hr>
-<div id="text-secondary" class="carousel slide carousel-fade carousel1 w-50 m-auto carousel-border" data-bs-ride="carousel">
+<div id="carouselExample" class="carousel slide w-50 m-auto" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item">
-      <img class="d-block medium m-auto" src="Images/dogs/dog white2.jpg" alt="Dog white"> 
+    <div class="carousel-item active">
+      <img class="d-block medium" src="Images/dogs/dog white2.jpg" alt="Dog white"> 
     </div>
       <div class="carousel-item active">
-        <img class="d-block medium m-auto" src="Images/cats/cat_red3.jpg" alt="Cat red">
+        <img class="d-block medium" src="Images/cats/cat_red3.jpg" alt="Cat red">
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block medium" src="Images/bunny/bunny_woods.jpg" alt="Bunny woods">
       </div>
     </div>
-</div> <!--  div id="text-secondary" ENDING-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div> <!--  div id="carouselExample" ENDING-->
 <div class="container"> <!-- Card divs START-->
   <div class="card" style="width: 18rem; opacity: 0.8;">
     <img src="Images/cats/cat_inbed.jpg" class="card-img-top" alt="cat in bed">
@@ -85,7 +99,15 @@
       <a href="/bunny.html" class="btn btn-outline-info">Bunny</a>
     </div>
   </div>
+</div>
 <!-- Card divs ENDING-->
+<footer class="bg-info opacity-75 py-2 mt-3">
+  <div class="container-fluid text-dark text-center ">
+    <p class="display-7 mb-2"> <img src="/Images/logos/petshop_red.png" alt="Petshop" width="40" height="40"class="d-inline-block align-text-bottom">
+      <a class="navbar-brand" aria-current="page" href="#">Petshop</a></p>
+    <small class="text-dark-50">&copy; Copyright By Aicha Dahlgren ElMansouri. All rights reserved.</small>
+  </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
