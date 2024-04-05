@@ -36,8 +36,9 @@ background-color: rgba(255, 255, 255, 0.5); /* Set the background color with 50%
 }
 
 img.medium {
-  width: 950px;
+  width: 1000px;
   height: 600px;  
+  
 }
 /* .carousel {
   margin-left: auto;
@@ -45,9 +46,15 @@ img.medium {
 } */
 
 .hover:hover {
-  color: #FC5C7D;
+  color: red;
 }
 .dropdown-menu>li> a:hover{
   /* Your hover effect styles */
   color: #FC5C7D; /* Change this to whatever color you desire */
 }
+
+.active{
+  color:#FC5C7D !important;
+}
+
+

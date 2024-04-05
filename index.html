@@ -15,10 +15,10 @@
               <li class="nav-item">
                 <div class="container-fluid"></div>
                   <img src="/Images/logos/petshop_red.png" alt="Petshop" width="40" height="40"class="d-inline-block align-text-bottom">
-                  <a class="navbar-brand" aria-current="page" href="#">Petshop</a>
+                  <a class="navbar-brand" aria-current="page" href="home">Petshop</a>
                 </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html"><span class="hover" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"><span class="hover" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Home</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html"><span class="hover">About us</span></a>
@@ -53,25 +53,28 @@
 </nav>
 <hr>
 <div id="carouselExample" class="carousel slide w-50 m-auto" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner"> 
     <div class="carousel-item active">
       <img class="d-block medium" src="Images/dogs/dog white2.jpg" alt="Dog white"> 
     </div>
       <div class="carousel-item active">
-        <img class="d-block medium" src="Images/cats/cat_red3.jpg" alt="Cat red">
+        <img class="d-block medium" src="Images/cats/cat_red3.jpg"  alt="Cat red">
       </div>
       <div class="carousel-item active">
         <img class="d-block medium" src="Images/bunny/bunny_woods.jpg" alt="Bunny woods">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
+      style="opacity: 0.3 !important; background-color: #FC5C7D;">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" 
+    style="opacity: 0.3 !important; background-color: #FC5C7D;">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+
   </div>
 </div> <!--  div id="carouselExample" ENDING-->
 <div class="container"> <!-- Card divs START-->
@@ -79,7 +82,7 @@
     <img src="Images/cats/cat_inbed.jpg" class="card-img-top" alt="cat in bed">
       <div class="card-body">
         <h5 class="card-title">Silly Cats</h5>
-        <p class="card-text">Mjau, do you have a cat then check this page. We have a lot of diffrent food the cat.</p>
+        <p class="card-text">They are nice but can also jump very high these cats, so watch out. We have a lot of diffrent food in our store for the cat.</p>
       <a href="/cats.html" class="btn btn-outline-info">Cats</a>
     </div>
   </div>
@@ -87,7 +90,7 @@
       <img src="Images/dogs/dog_sunglasses.jpg" class="card-img-top" alt="dogs_sunglasses">
         <div class="card-body">
           <h5 class="card-title">Nice dogs</h5>
-        <p class="card-text">Long, short, small and big dogs for all humans. We have nice things for all kind of dogs.<p>
+        <p class="card-text">Every different dog sizes for all kind of different humans. We have nice accesories for all kind of dogs just check the webpage.<p>
       <a href="/dogs.html" class="btn btn-outline-info">Dogs</a>
     </div>
   </div>
@@ -95,20 +98,22 @@
     <img src="Images/bunny/grey_bunny.jpg" class="card-img-top" alt="grey_bunny">
       <div class="card-body">
         <h5 class="card-title">Sweet Bunny</h5>
-        <p class="card-text">Jump and jump with the rabbit beside you. Just give us a call and we will find the perfect one for you.</p>
+        <p class="card-text">Jump and jump with the rabbit beside you. Just give us a call and we will find the perfect one for you fluffy and sweet.</p>
       <a href="/bunny.html" class="btn btn-outline-info">Bunny</a>
     </div>
   </div>
 </div>
 <!-- Card divs ENDING-->
+</div> <!--Footer starts-->
 <footer class="bg-info opacity-75 py-2 mt-3">
   <div class="container-fluid text-dark text-center ">
-    <p class="display-7 mb-2"> <img src="/Images/logos/petshop_red.png" alt="Petshop" width="40" height="40"class="d-inline-block align-text-bottom">
-      <a class="navbar-brand" aria-current="page" href="#">Petshop</a></p>
+    <p class="display-7 mb-2"> 
+      <img src="/Images/logos/petshop_red.png" alt="Petshop" width="40" height="40"class="d-inline-block align-text-bottom">
+      <a class="navbar-brand" aria-current="page" href="#">Petshop</a>
     <small class="text-dark-50">&copy; Copyright By Aicha Dahlgren ElMansouri. All rights reserved.</small>
   </div>
-</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</footer><!--Footer end-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
 
